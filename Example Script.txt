@@ -1,0 +1,18 @@
+show Creating an array "struct" and number x y & z.
+var x 1
+var y 5
+var z 18
+arr struct
+
+show variables created
+show Add index 0 to the array. 
+read arr struct
+show Add index 1 to the array
+read arr struct
+
+show a struct 0
+show a struct 1
+
+show x
+show y
+show z
