@@ -1,0 +1,61 @@
+How to script
+
+You need to include an "info.txt" file. This file will have the names of all the scripts you intend to run when you start the application. 
+This file will be in the .exe directory. 
+
+Each line will have the relative filepath from the .exe to the other scripts. 
+If you have all the scripts in the same directory, you can just list the full filename. For example info.txt will have the scripts 
+"Script A" & "Script B"
+The info.txt file will have the literal contents:
+"Script A.txt
+Script B.txt"
+
+
+Variables:
+++++++++++++++++++++++
+++++++++++++++++++++++
+++++++++++++++++++++++
+To create a new variable, type the variable command, the name of the variable & the value you want stored.
+Example:
+"var foo 10"
+You can also use the indicator "$" or "variable"
+
+Arrays:
+++++++++++++++++++++++
+++++++++++++++++++++++
+++++++++++++++++++++++
+To create an array you initialize it on one line then add variables on subsequent lines. 
+"array foo
+arr bar
+list foobar"
+
+Add new values with input. 
+read a foo
+read arr bar
+read array foo
+read list foobar
+
+Printing:
+++++++++++++++++++++++
+++++++++++++++++++++++
+++++++++++++++++++++++
+You can also print to the screen with "show" "print" or "write"
+"var x 1
+show x
+show This text will print literally.
+array newArray
+read a newArray
+show newArray 0"
+
+Looping:
+++++++++++++++++++++++
+++++++++++++++++++++++
+++++++++++++++++++++++
+You can also loop through commands. You can for loop count up or for loop count down.
+Counting up counts from 0 to the number indicated & counting down counts from the indicated number to 0.
+"for cu 10
+show From 0 to 10
+end
+for cd 10
+show From 10 to 0
+end"
